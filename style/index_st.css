@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid grey;
+}
+.box-name {
+    border: 1px solid black;
+}
+.box-name-list {
+    list-style: none;
+    padding: 0;
+}
+.li-name:hover {
+    cursor: pointer;
+}
