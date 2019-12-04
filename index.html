@@ -4,7 +4,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="MDB-Free/css/bootstrap.min.css">
+    <link rel="stylesheet" href="MDB-Free/css/bootstrap.css">
     <link rel="stylesheet" href="MDB-Free/css/mdb.css">
     <link rel="stylesheet" href="style/index_st.css">
     <title>TO-DO</title>
@@ -13,7 +13,8 @@
 
 
 <div class="container-fluid d-flex flex-row">
-    <section class="form-dark mb-5 ">
+    <div class="row min-vw-100">
+    <section class="form-dark mb-5 col-lg-3 col-6">
 
         <!--Form without header-->
         <div class="card special-color-dark">
@@ -26,31 +27,32 @@
                 </div>
 
                 <form action="" class="form">
-                <div class="md-form">
-                    <input type="text" id="form101" class="form-control">
-                    <label for="form101">Category</label>
-                </div>
-
-                <div class="md-form">
-                    <input type="text" id="form102" class="form-control">
-                    <label for="form102">Title</label>
-                </div>
-
-                <div class="md-form">
-                    <textarea id="form103" class="md-textarea form-control" rows="5"></textarea>
-                    <label for="form103">Task text</label>
-                </div>
-
-
-                <!--Grid row-->
-                <div class="row d-flex align-items-center">
-
-                    <!--Grid column-->
-                    <div class="text-center col-md-12 mt-3 mb-2">
-                        <button type="submit" class="btn btn-success btn-block btn-rounded z-depth-1">Send</button>
+                    <div class="md-form">
+                        <input type="text" id="form101" class="form-control">
+                        <label for="form101">Category</label>
                     </div>
-                    <!--Grid column-->
-                </div>
+
+                    <div class="md-form">
+                        <input type="text" id="form102" class="form-control">
+                        <label for="form102">Task name</label>
+                    </div>
+
+                    <div class="md-form">
+                        <textarea id="form103" class="md-textarea form-control" rows="5"></textarea>
+                        <label for="form103">Task text</label>
+                    </div>
+
+
+                    <!--Grid row-->
+                    <div class="row d-flex align-items-center">
+
+                        <!--Grid column-->
+                        <div class="text-center col-md-12 mt-3 mb-2">
+                            <button type="submit" class="btn btn-success btn-block btn-rounded z-depth-1">Send</button>
+
+                        </div>
+                        <!--Grid column-->
+                    </div>
                 </form>
                 <!--Grid row-->
 
@@ -59,10 +61,12 @@
 
     </section>
 
-    <div class="row">
+    <div class="col-lg-9 col-6 row">
         <div class="col-9 mx-auto d-flex flex-wrap my-list">
 
         </div>
+    </div>
+
     </div>
 
 </div>
